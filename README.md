@@ -1,4 +1,4 @@
-# 🎈 Blank app template
+# 🎈 Zar Atış Simülasyonu
 
 A simple Streamlit app template for you to modify!
 
