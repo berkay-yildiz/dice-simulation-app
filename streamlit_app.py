@@ -4,7 +4,14 @@ import matplotlib.pyplot as plt
 
 st.title("Zar Atışı Simülasyonu")
 
-n_rolls = st.slider("Kaç kez zar atılsın?", min_value=10, max_value=1000, value=100, step=10)
+# Max 1.000.000
+n_rolls = st.slider(
+    "Kaç kez zar atılsın?",
+    min_value=10,
+    max_value=1_000_000,
+    value=100,
+    step=10
+)
 
 rolls = np.random.randint(1, 7, n_rolls)
 
